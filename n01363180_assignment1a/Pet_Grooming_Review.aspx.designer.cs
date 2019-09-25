@@ -22,75 +22,84 @@ namespace n01363180_assignment1a {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// first_name control.
+        /// customer_first_name control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox first_name;
+        protected global::System.Web.UI.WebControls.TextBox customer_first_name;
         
         /// <summary>
-        /// last_name control.
+        /// customer_last_name control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox last_name;
+        protected global::System.Web.UI.WebControls.TextBox customer_last_name;
         
         /// <summary>
-        /// email control.
+        /// customer_email control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox email;
+        protected global::System.Web.UI.WebControls.TextBox customer_email;
         
         /// <summary>
-        /// phone control.
+        /// customer_phone control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox phone;
+        protected global::System.Web.UI.WebControls.TextBox customer_phone;
         
         /// <summary>
-        /// phone_type control.
+        /// customer_phone_type control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButtonList phone_type;
+        protected global::System.Web.UI.WebControls.RadioButtonList customer_phone_type;
         
         /// <summary>
-        /// duration control.
+        /// customer_hospitality control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList duration;
+        protected global::System.Web.UI.WebControls.DropDownList customer_hospitality;
         
         /// <summary>
-        /// animal_type control.
+        /// grooming_branch control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBoxList animal_type;
+        protected global::System.Web.UI.WebControls.CheckBoxList grooming_branch;
         
         /// <summary>
-        /// review control.
+        /// customer_review control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox review;
+        protected global::System.Web.UI.WebControls.TextBox customer_review;
+        
+        /// <summary>
+        /// confirmationbox control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl confirmationbox;
     }
 }
